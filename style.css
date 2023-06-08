@@ -83,3 +83,8 @@ input {
   padding: 0.25;
   padding: 0rem 1.625rem 0.625rem 2.5rem;
 }
+
+.text-center {
+    text-align: center;
+  }
+  
