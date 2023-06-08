@@ -1,0 +1,30 @@
+body{
+    font-size: 1rem;
+    font-weight: 400 bold;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+body::before{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index : -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(68, 255, 0, 0.344)
+        rgba(0, 166, 255, 0.367)
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    max-width: 1040px;
+    min-width: 768;
+}
